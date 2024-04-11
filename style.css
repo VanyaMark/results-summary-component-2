@@ -7,6 +7,7 @@ body {
     font-family: "Hanken Grotesk", Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     max-width: 600px;
+    min-width:300px;
 
 }
 
@@ -53,7 +54,7 @@ body {
 }
 
 .summary {
-    padding: 0 1rem;
+    padding: 0 2rem;
 }
 
 .summary__scores {
@@ -116,6 +117,12 @@ body {
     opacity: 0.7;
 } 
 
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 a{
     background-color: hsl(224, 30%, 27%);
     color: white;
@@ -126,9 +133,10 @@ a{
     font-weight: 700;
     font-size: 1.5rem;
     border-radius: 50px;
-    display: block;
+
     margin-top: 1rem;
 }
+
 
 
 .attribution { font-size: 11px; text-align: center; }
