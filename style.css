@@ -6,6 +6,7 @@ body {
 
     font-family: "Hanken Grotesk", Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
+
 }
 
 .result {
@@ -16,7 +17,12 @@ body {
     flex-direction: column;
     align-items: center;
 }
-
+.result h2{
+    opacity: 0.7;
+}
+.result h3{
+    font-size: 2rem;
+}
 .result__number {
     width: 13rem;
     height:13rem;
@@ -30,6 +36,12 @@ body {
 
 #main-result {
     font-size: 5rem;
+    font-weight: 600;
+}
+
+#total-result {
+    opacity: 0.5;
+    font-weight: 300;
 }
 
 .result__description {
@@ -47,27 +59,75 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    font-weight: 900;
 }
 
 .summary__reaction {
     background-color: hsla(0, 100%, 67%, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    color: hsl(0, 100%, 67%);
+    border-radius: 13px;
 }
-
+.summary__reaction div:first-child, .summary__memory div:first-child, .summary__verbal div:first-child, .summary__visual div:first-child{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+/*----------preguntar por una manera más eficiente de aplicar el mismo estilo a los 4 apartados-------*/
 .summary__memory {
     background-color: hsla(39, 100%, 56%, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    color: hsl(39, 100%, 56%);
+    border-radius: 13px;
 }
 
 .summary__verbal {
     background-color: hsla(166, 100%, 37%, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    color: hsl(166, 100%, 37%);
+    border-radius: 13px;
 }
 
 .summary__visual {
     background-color: hsla(234, 85%, 45%, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    color: hsl(234, 85%, 45%);
+    border-radius: 13px;
+}
+.summary__score__percent{
+    color: black;
+}
+.summary__score__total{
+    font-weight: 400;
+    color: black;
+    opacity: 0.7;
+} 
+
+a{
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    text-decoration: none;
+    width: 300px;
+    padding: 2rem 8rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    border-radius: 50px;
 }
 
-.summary__reaction {
-    color: red;
-}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
