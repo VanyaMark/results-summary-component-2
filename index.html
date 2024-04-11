@@ -1,73 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Results summary component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <title>Frontend Mentor | Results summary component</title>
 
-  <div class="result">
-    <h2>Your Result</h2>
-    <div class="result__number">
-      <span id="main-result">76</span>
-      <span id="total-result">of 100</span>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="result">
+      <h2>Your Result</h2>
+      <div class="result__number">
+        <span id="main-result">76</span>
+        <span id="total-result">of 100</span>
+      </div>
+      <h3>Great</h3>
+      <p class="result__description">
+        You scored higher than 65% of the people who have taken these tests.
+      </p>
     </div>
-    <h3>Great</h3>
-    <p class="result__description">You scored higher than 65% of the people who have taken these tests.</p>
-  </div>
-  
-  <div class="summary">
-    <h2>Summary</h2>
-    <div class="summary__scores">
-      <div class="summary__reaction">
-        <div>
-          <img src="assets/images/icon-reaction.svg" alt="reaction">
-          <span>Reaction</span>
-        </div>
-        <div>
-          <span class="summary__score__percent">80</span>
-          <span class="summary__score__total">/ 100</span>
-        </div>
-      </div>
-      <div class="summary__memory">
-        <div>
-          <img src="assets/images/icon-memory.svg" alt="memory">
-          <span>Memory</span>
-        </div>
-        <div>
-          <span class="summary__score__percent">92</span> <span class="summary__score__total">/ 100</span>
-        </div>
-      </div>
-      <div class="summary__verbal">
-        <div><img src="assets/images/icon-verbal.svg" alt="verbal"><span>Verbal</span></div>
-        <div><span class="summary__score__percent">61</span> <span class="summary__score__total">/ 100</span></div>
-      </div>
-      <div class="summary__visual">
-        <div>
-          <img src="assets/images/icon-visual.svg" alt="visual">
-          <span>Visual</span>
-        </div>
-        <div><span class="summary__score__percent">72</span> <span class="summary__score__total">/ 100</span></div>
-      </div>
-    </div>
-    <div class="btn"><a href="">Continue</a></div>
-  </div>
 
-  <!--
+    <div class="summary">
+      <h2>Summary</h2>
+      <div class="summary__scores">
+        <div class="summary__reaction">
+          <div>
+            <img src="assets/images/icon-reaction.svg" alt="reaction" />
+            <span>Reaction</span>
+          </div>
+          <div>
+            <span class="summary__score__percent">80</span>
+            <span class="summary__score__total">/ 100</span>
+          </div>
+        </div>
+        <div class="summary__memory">
+          <div>
+            <img src="assets/images/icon-memory.svg" alt="memory" />
+            <span>Memory</span>
+          </div>
+          <div>
+            <span class="summary__score__percent">92</span>
+            <span class="summary__score__total">/ 100</span>
+          </div>
+        </div>
+        <div class="summary__verbal">
+          <div>
+            <img src="assets/images/icon-verbal.svg" alt="verbal" /><span
+              >Verbal</span
+            >
+          </div>
+          <div>
+            <span class="summary__score__percent">61</span>
+            <span class="summary__score__total">/ 100</span>
+          </div>
+        </div>
+        <div class="summary__visual">
+          <div>
+            <img src="assets/images/icon-visual.svg" alt="visual" />
+            <span>Visual</span>
+          </div>
+          <div>
+            <span class="summary__score__percent">72</span>
+            <span class="summary__score__total">/ 100</span>
+          </div>
+        </div>
+      </div>
+      <div class="btn"><a href="">Continue</a></div>
+    </div>
+
+    <!--
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
-  --> 
-</body>
+  --></body>
 </html>
