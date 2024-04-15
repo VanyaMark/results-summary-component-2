@@ -144,8 +144,8 @@ a{
 .attribution a { color: hsl(228, 45%, 44%); }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 601px) and (max-width: 992px) {
+/* Small devices (portrait tablets and large phones, 600px and up) THIS IS ACTUALLY MODIFIED FOR THE CLASS PURPOSES */
+@media only screen and (min-width: 601px) and (max-width: 3840px) {
     body {
         display: flex;
 
